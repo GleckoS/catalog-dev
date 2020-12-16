@@ -1,0 +1,196 @@
+{
+  "items": [
+    {
+      "img": "https://static-sl.insales.ru/images/products/1/510/227009022/large_893-original-1520x1015-1_1.png",
+      "name": "Пицца Итальяно",
+      "price": "500р",
+      "brand": "Dominos",
+      "category": "pizza",
+      "id": "1"
+    },
+    {
+      "img": "https://static-sl.insales.ru/images/products/1/511/227009023/large_image.png",
+      "name": "Пицца Колбасная",
+      "price": "600р",
+      "brand": "Pizza-Hut",
+      "category": "pizza",
+      "id": "2"
+    },
+    {
+      "img": "https://static-sl.insales.ru/images/products/1/513/227009025/large_90d15f22dc95822302e6af16108ef45a_gallerySiteSize.png",
+      "name": "Пицца Ассорти",
+      "price": "700р",
+      "brand": "Pizzy",
+      "category": "pizza",
+      "id": "3"
+    },
+    {
+      "img": "https://static-sl.insales.ru/images/products/1/514/227009026/large_7b0d75cef12148762c9ab3b9865da2c3_100531941.png",
+      "name": "Французкая Пицца",
+      "price": "1000р",
+      "brand": "MAXIPIZZA",
+      "category": "pizza",
+      "id": "4"
+    },
+    {
+      "img": "https://static-sl.insales.ru/images/products/1/510/227009022/large_893-original-1520x1015-1_1.png",
+      "name": "Пицца Итальяно",
+      "price": "500р",
+      "brand": "Dominos",
+      "category": "pizza",
+      "id": "5"
+    },
+    {
+      "img": "https://static-sl.insales.ru/images/products/1/511/227009023/large_image.png",
+      "name": "Пицца Колбасная",
+      "price": "600р",
+      "brand": "Pizza-Hut",
+      "category": "pizza",
+      "id": "6"
+    },
+    {
+      "img": "https://static-sl.insales.ru/images/products/1/513/227009025/large_90d15f22dc95822302e6af16108ef45a_gallerySiteSize.png",
+      "name": "Пицца Ассорти",
+      "price": "700р",
+      "brand": "Pizzy",
+      "category": "pizza",
+      "id": "7"
+    },
+    {
+      "img": "https://static-sl.insales.ru/images/products/1/514/227009026/large_7b0d75cef12148762c9ab3b9865da2c3_100531941.png",
+      "name": "Французкая Пицца",
+      "price": "1000р",
+      "brand": "MAXIPIZZA",
+      "category": "pizza",
+      "id": "8"
+    },
+    {
+      "img": "https://static-sl.insales.ru/images/products/1/510/227009022/large_893-original-1520x1015-1_1.png",
+      "name": "Пицца Итальяно",
+      "price": "500р",
+      "brand": "Dominos",
+      "category": "pizza",
+      "id": "9"
+    },
+    {
+      "img": "https://static-sl.insales.ru/images/products/1/511/227009023/large_image.png",
+      "name": "Пицца Колбасная",
+      "price": "600р",
+      "brand": "Pizza-Hut",
+      "category": "pizza",
+      "id": "10"
+    },
+    {
+      "img": "https://static-sl.insales.ru/images/products/1/513/227009025/large_90d15f22dc95822302e6af16108ef45a_gallerySiteSize.png",
+      "name": "Пицца Ассорти",
+      "price": "700р",
+      "brand": "Pizzy",
+      "category": "pizza",
+      "id": "11"
+    },
+    {
+      "img": "https://static-sl.insales.ru/images/products/1/514/227009026/large_7b0d75cef12148762c9ab3b9865da2c3_100531941.png",
+      "name": "Французкая Пицца",
+      "price": "1000р",
+      "brand": "MAXIPIZZA",
+      "category": "pizza",
+      "id": "12"
+    },
+    {
+      "img": "https://static-sl.insales.ru/images/products/1/510/227009022/large_893-original-1520x1015-1_1.png",
+      "name": "Пицца Итальяно",
+      "price": "500р",
+      "brand": "Dominos",
+      "category": "pizza",
+      "id": "13"
+    },
+    {
+      "img": "https://static-sl.insales.ru/images/products/1/511/227009023/large_image.png",
+      "name": "Пицца Колбасная",
+      "price": "600р",
+      "brand": "Pizza-Hut",
+      "category": "pizza",
+      "id": "14"
+    },
+    {
+      "img": "https://static-sl.insales.ru/images/products/1/513/227009025/large_90d15f22dc95822302e6af16108ef45a_gallerySiteSize.png",
+      "name": "Пицца Ассорти",
+      "price": "700р",
+      "brand": "Pizzy",
+      "category": "pizza",
+      "id": "15"
+    },
+    {
+      "img": "https://static-sl.insales.ru/images/products/1/514/227009026/large_7b0d75cef12148762c9ab3b9865da2c3_100531941.png",
+      "name": "Французкая Пицца",
+      "price": "1000р",
+      "brand": "MAXIPIZZA",
+      "category": "pizza",
+      "id": "16"
+    },
+    {
+      "img": "https://static-sl.insales.ru/images/products/1/510/227009022/large_893-original-1520x1015-1_1.png",
+      "name": "Пицца Итальяно",
+      "price": "500р",
+      "brand": "Dominos",
+      "category": "pizza",
+      "id": "17"
+    },
+    {
+      "img": "https://static-sl.insales.ru/images/products/1/511/227009023/large_image.png",
+      "name": "Пицца Колбасная",
+      "price": "600р",
+      "brand": "Pizza-Hut",
+      "category": "pizza",
+      "id": "18"
+    },
+    {
+      "img": "https://static-sl.insales.ru/images/products/1/513/227009025/large_90d15f22dc95822302e6af16108ef45a_gallerySiteSize.png",
+      "name": "Пицца Ассорти",
+      "price": "700р",
+      "brand": "Pizzy",
+      "category": "pizza",
+      "id": "19"
+    },
+    {
+      "img": "https://static-sl.insales.ru/images/products/1/514/227009026/large_7b0d75cef12148762c9ab3b9865da2c3_100531941.png",
+      "name": "Французкая Пицца",
+      "price": "1000р",
+      "brand": "MAXIPIZZA",
+      "category": "pizza",
+      "id": "20"
+    },
+    {
+      "img": "https://static-sl.insales.ru/images/products/1/510/227009022/large_893-original-1520x1015-1_1.png",
+      "name": "Пицца Итальяно",
+      "price": "500р",
+      "brand": "Dominos",
+      "category": "pizza",
+      "id": "21"
+    },
+    {
+      "img": "https://static-sl.insales.ru/images/products/1/511/227009023/large_image.png",
+      "name": "Пицца Колбасная",
+      "price": "600р",
+      "brand": "Pizza-Hut",
+      "category": "pizza",
+      "id": "22"
+    },
+    {
+      "img": "https://static-sl.insales.ru/images/products/1/513/227009025/large_90d15f22dc95822302e6af16108ef45a_gallerySiteSize.png",
+      "name": "Пицца Ассорти",
+      "price": "700р",
+      "brand": "Pizzy",
+      "category": "pizza",
+      "id": "23"
+    },
+    {
+      "img": "https://static-sl.insales.ru/images/products/1/514/227009026/large_7b0d75cef12148762c9ab3b9865da2c3_100531941.png",
+      "name": "Французкая Пицца",
+      "price": "1000р",
+      "brand": "MAXIPIZZA",
+      "category": "pizza",
+      "id": "24"
+    }
+  ]
+}
