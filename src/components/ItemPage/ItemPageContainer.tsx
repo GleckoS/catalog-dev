@@ -2,12 +2,9 @@ import React from 'react'
 import {connect} from "react-redux";
 import ItemPage from "./ItemPage";
 import { Redirect } from 'react-router'
+import {_state, ItemPageContainerProps} from "../../common/types";
 
-interface Props {
-    currentItem: {id: string, name: string, price: string, brand: string, category: string, img: string}
-}
-
-const ItemPageContainer = (props: Props) => {
+const ItemPageContainer = (props: ItemPageContainerProps) => {
 
     const {currentItem} = props
 
@@ -23,7 +20,7 @@ const ItemPageContainer = (props: Props) => {
     )
 }
 
-const MapStateToProps = (state: any) => {
+const MapStateToProps = (state: _state) => {
     return {
         currentItem: state.itemsReducer.currentItem
     }

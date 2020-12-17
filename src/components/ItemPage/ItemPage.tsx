@@ -1,6 +1,7 @@
 import React from 'react'
 import styled from "styled-components";
 import {NavLink} from "react-router-dom";
+import {ItemPageProps} from "../../common/types";
 
 const Wrapper = styled.section`
   max-width: 1140px;
@@ -35,11 +36,8 @@ const Link = styled(NavLink)`
   border: 1px solid blue;
 `
 
-interface Props {
-    currentItem: any
-}
 
-const ItemPage = (props: Props) => {
+const ItemPage = (props: ItemPageProps) => {
 
     const {currentItem} = props
 

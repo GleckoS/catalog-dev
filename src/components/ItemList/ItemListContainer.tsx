@@ -1,18 +1,11 @@
 import React, {useState} from 'react'
 import {connect} from "react-redux";
 import {ChangePage, setCurrentItemThunk} from "../../redux/itemsReducer";
-import UserList from "./ItemList";
+import ItemList from "./ItemList";
+import {_state, ItemListContainerProps} from "../../common/types";
 
-interface Props {
-    setCurrentItemThunk: any, /*func*/
-    ChangePage: any, /*func*/
-    currentPage: number,
-    currentFilter: string,
-    itemList: Array<{id: string, name: string, price: string, brand: string, category: string, img: string}>
-    showedArray: Array<{id: string, name: string, price: string, brand: string, category: string, img: string}>
-}
 
-const UserListContainer = (props: Props) => {
+const ItemListContainer = (props: ItemListContainerProps) => {
 
     const {showedArray, ChangePage, currentPage, itemList, setCurrentItemThunk, currentFilter} = props
 
@@ -53,7 +46,7 @@ const UserListContainer = (props: Props) => {
     }
 
     return (
-        <UserList
+        <ItemList
             PageChange={PageChange}
             SetItem={SetItem}
             isFinite={isFinite}
@@ -65,7 +58,7 @@ const UserListContainer = (props: Props) => {
     )
 }
 
-const MapStateToProps = (state: any) => {
+const MapStateToProps = (state: _state) => {
     return {
         showedArray: state.itemsReducer.showedArray,
         currentPage: state.itemsReducer.currentPage,
@@ -74,4 +67,4 @@ const MapStateToProps = (state: any) => {
     }
 }
 
-export default connect(MapStateToProps, {setCurrentItemThunk, ChangePage})(UserListContainer)
+export default connect(MapStateToProps, {setCurrentItemThunk, ChangePage})(ItemListContainer)

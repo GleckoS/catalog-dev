@@ -5,13 +5,11 @@ import {initialiseThunk} from "./redux/itemsReducer";
 import {BrowserRouter as Router, Route, Switch,} from "react-router-dom";
 import ItemPageContainer from "./components/ItemPage/ItemPageContainer";
 import Loader from "./common/Loader";
+import {_state, AppProps} from "./common/types";
 
-interface Props{
-    initialiseThunk: any, /*func*/
-    isFetching: boolean
-}
 
-function App(props: Props) {
+
+function App(props: AppProps) {
 
     const {initialiseThunk, isFetching} = props
 
@@ -37,7 +35,7 @@ function App(props: Props) {
     );
 }
 
-const MapStateToProps = (state: any) => {
+const MapStateToProps = (state: _state) => {
     return {
         isFetching: state.itemsReducer.isFetching
     }

@@ -1,23 +1,16 @@
 import React from "react";
 import styled from "styled-components";
+import {ButtonsProps} from "../../../common/types";
 
 const Pagination = styled.div`
   display: flex;
   justify-content: center;
 `
 
-interface Props {
-    PageChange: any, /*func*/
-    isFinite: boolean,
-    canNextPage: boolean,
-    currentPage: number,
-    currentFilter: string
-    showedArray: any /*Массив*/
-}
-
-const Buttons = (props: Props) => {
+const Buttons = (props: ButtonsProps) => {
 
     const {PageChange, isFinite, canNextPage, currentPage, showedArray, currentFilter} = props
+
     if (isFinite) {
         return (
             <Pagination>
@@ -46,7 +39,6 @@ const Buttons = (props: Props) => {
         )
     } else {
         return null
-
     }
 }
 

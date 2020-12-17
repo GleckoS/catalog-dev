@@ -2,6 +2,7 @@ import React from 'react'
 import styled from "styled-components";
 import {NavLink} from "react-router-dom";
 import Buttons from "./Buttons/Buttons";
+import {ItemListProps} from "../../common/types";
 
 const Wrapper = styled.div`
   max-width: 960px;
@@ -28,18 +29,8 @@ const Flex = styled.div`
   justify-content: space-between;
 `
 
-interface Props {
-    PageChange: any, /*func*/
-    SetItem: any, /*func*/
-    isFinite: boolean,
-    canNextPage: boolean,
-    currentPage: number,
-    currentFilter: string,
-    showedArray: any, /*Массив*/
 
-}
-
-const UserList = (props: Props) => {
+const ItemList = (props: ItemListProps) => {
 
     const {
         SetItem,
@@ -49,7 +40,6 @@ const UserList = (props: Props) => {
         currentPage,
         currentFilter,
         showedArray
-
     } = props
 
     return (
@@ -79,4 +69,4 @@ const UserList = (props: Props) => {
     )
 }
 
-export default UserList
+export default ItemList

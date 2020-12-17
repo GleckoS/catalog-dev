@@ -1,5 +1,6 @@
 import React from 'react'
 import styled from "styled-components";
+import {HeaderProps} from "../../common/types";
 
 const Wrapper = styled.div`
   max-width: 960px;
@@ -42,15 +43,7 @@ const Select = styled.select`
   }
 `
 
-interface Props {
-    handleClickSearch: any, /*func*/
-    changeShow: any, /*func*/
-    changePagination: any, /*func*/
-    currentFilter: string,
-    inputValue: string
-}
-
-const Header = (props: Props) => {
+const Header = (props: HeaderProps) => {
 
     const {
         handleClickSearch,

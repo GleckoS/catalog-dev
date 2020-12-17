@@ -2,49 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="532be26d-ecd4-4523-a29c-cc67da77ecf7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../catalog/src/common/reload.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/Loader.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/ItemList/Buttons/Buttons.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../user-redactor/.eslintcache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../user-redactor/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../user-redactor/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../user-redactor/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../user-redactor/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../user-redactor/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../user-redactor/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../user-redactor/.idea/user-redactor.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../user-redactor/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../user-redactor/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../user-redactor/db.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../user-redactor/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../user-redactor/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../user-redactor/public/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../user-redactor/public/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../user-redactor/public/logo192.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../user-redactor/public/logo512.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../user-redactor/public/manifest.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../user-redactor/public/robots.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../user-redactor/server.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../user-redactor/src/App.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../user-redactor/src/App.test.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../user-redactor/src/common/constants.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../user-redactor/src/common/reload.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../user-redactor/src/components/Edit/Edit.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../user-redactor/src/components/Edit/EditContainer.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../user-redactor/src/components/Header/Header.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../user-redactor/src/components/Header/HeaderContainer.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../user-redactor/src/components/Register/Register.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../user-redactor/src/components/Register/RegisterContainer.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../user-redactor/src/components/UserList/UserList.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../user-redactor/src/components/UserList/UserListContainer.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../user-redactor/src/index.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../user-redactor/src/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../user-redactor/src/logo.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../user-redactor/src/redux/reduxStore.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../user-redactor/src/redux/usersReducer.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../user-redactor/src/reportWebVitals.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../user-redactor/src/setupTests.js" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/common/types.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header/Header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Header.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header/HeaderContainer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/HeaderContainer.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ItemList/Buttons/Buttons.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ItemList/Buttons/Buttons.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ItemList/ItemList.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ItemList/ItemList.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ItemList/ItemListContainer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ItemList/ItemListContainer.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ItemPage/ItemPage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ItemPage/ItemPage.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ItemPage/ItemPageContainer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ItemPage/ItemPageContainer.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,7 +22,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1ljZAe7eIa107yzRFw2SH45z1jr" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -71,7 +41,7 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="ts.external.directory.path" value="D:\Projects\work-katalog\katalog-dev\node_modules\typescript\lib" />
+    <property name="ts.external.directory.path" value="D:\Work-project\catalog-dev\node_modules\typescript\lib" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -120,6 +90,7 @@
       <workItem from="1608114488300" duration="7908000" />
       <workItem from="1608122566822" duration="4390000" />
       <workItem from="1608130192447" duration="11627000" />
+      <workItem from="1608200910124" duration="976000" />
     </task>
     <servers />
   </component>

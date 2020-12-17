@@ -8,21 +8,9 @@ import {
     setPaginationThunk,
     setShowedArrayThunk
 } from "../../redux/itemsReducer";
+import {_state, HeaderContainerProps} from "../../common/types";
 
-interface Props {
-    setShowedArrayThunk: any, /*func*/
-    setFilteredArrayThunk: any, /*func*/
-    setPaginationThunk: any, /*func*/
-    setChosenFilterThunk: any, /*func*/
-    setInputValueThunk: any, /*func*/
-    page: number,
-    currentFilter: string,
-    inputValue: string,
-    filteredArray: Array<{id: string, name: string, price: string, brand: string, category: string, img: string}>
-    itemList: Array<{id: string, name: string, price: string, brand: string, category: string, img: string}>
-}
-
-const HeaderContainer = (props: Props) => {
+const HeaderContainer = (props: HeaderContainerProps) => {
 
     const {
         setShowedArrayThunk,
@@ -83,7 +71,7 @@ const HeaderContainer = (props: Props) => {
 
 }
 
-const MapStateToProps = (state: any) => {
+const MapStateToProps = (state: _state) => {
     return {
         itemList: state.itemsReducer.itemList,
         filteredArray: state.itemsReducer.filteredArray,
